@@ -4,6 +4,12 @@ ul,li,a{
 	padding: 0;
 }
 
+i{
+	font-weight: 100;
+	font-style: normal;
+	font-size: 14px;
+}
+
 a{
 	text-decoration: none;
 }
@@ -81,16 +87,18 @@ body{
 	margin-left: 66px;
 }
 
+.nav_item li{
+	float: left;
+}
+
 .nav_item li a{
 	height: 32px;
 	line-height: 32px;
 	font-size: 14px;
 	color: #999999;
-	margin-right: 12px;
-
 }
 
-.nav_item li a:hover{
+.nav_item li i:hover{
 	color: red;
 }
 
@@ -103,9 +111,9 @@ body{
 	color: #9e9e9e;
 }
 
-/*.spacer{
-	height: 80%;
+.spacer{
 	width: 1px;
-	color: #000;
-	
-}*/
+	height: 10px;
+	background-color: #ccc;
+	margin: 10px 10px 0;
+}
